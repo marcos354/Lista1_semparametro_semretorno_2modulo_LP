@@ -1,0 +1,17 @@
+def minutos():
+    horaIni = int(input('Informe a hora inicial: '))
+    minutoIni = int(input('Informe o minuto inicial: '))
+    horaFin = int(input('Informe a hora final: '))
+    minutoFin = int(input("Informe o minuto final: "))
+    if minutoFin < minutoIni:
+      minutoFin = minutoFin + 60
+      horaFin = horaFin - 1
+    if horaFin < horaIni:
+      horaFin = horaFin + 24
+    totalMin = minutoFin - minutoIni
+    totalHora = horaFin - horaIni
+    total = totalHora * 60 + totalMin
+    print("O total de",total," minutos jogados.")
+def main():
+  minutos()
+main()
