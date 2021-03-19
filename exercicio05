@@ -1,0 +1,8 @@
+def percentual():
+  precoAntigo = float(input("Digite o preço antigo: "))
+  precoNovo = float(input("Digite o preço novo: "))
+  r = (100 * precoNovo - 100 * precoAntigo) / precoAntigo
+  print("O percentual de acréscimo entre os preços é: ",r)
+def main():
+  percentual()
+main()
