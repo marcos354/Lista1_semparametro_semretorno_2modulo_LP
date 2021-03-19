@@ -16,5 +16,4 @@ def acumular():
 
 def main():
     acumular()
-
 main()
