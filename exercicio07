@@ -1,0 +1,15 @@
+def media():
+    n1 = int(input("Digite a nota 1: "))
+    n2 = int(input("Digite a nota 2: "))
+    n3 = int(input("Digite a nota 3: "))
+    letra = str(input("Digite A ou B para calcular a media: "))
+    if letra == 'A':
+        mediaArit = (n1+n2+n3)/3
+        print("A média do aluno é: ",mediaArit)
+    else:
+        mediaPon = (n1*5 + n2*3 + n3*2) / 10
+        print("A média do aluno é: ", mediaPon)
+def main():
+  media()
+
+main()
