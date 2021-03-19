@@ -11,5 +11,4 @@ def divisivel():
 
 def main():
     divisivel()
-
 main()
