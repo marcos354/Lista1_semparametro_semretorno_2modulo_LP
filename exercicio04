@@ -1,0 +1,12 @@
+def segundos():
+  seg = int(input("Digite a quantidade de segundos: "))
+  h = seg / 3600
+  r = seg % 3600
+  m = r / 60
+  s = r % 60
+  print('A quantidade de horas: ', int (h))
+  print('A quantidade de minutos: ', int (m))
+  print("A quantidade de segundos: ", int (s))
+def main():
+  segundos()
+main()
