@@ -1,0 +1,15 @@
+def divisivel():
+    a = int(input('Informe um valor para a: '))
+    b = int(input('Informe um valor para b: '))
+    c = int(input('Informe um valor para c: '))
+    qtde = 0
+    for B in range(b,c+1):
+        if B % a == 0:
+            qtde += 1
+            print('O número',B, ' é divisível por',a)
+    print('Quantidade de números divisíveis:',qtde)
+
+def main():
+    divisivel()
+
+main()
