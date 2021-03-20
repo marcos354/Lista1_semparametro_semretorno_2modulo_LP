@@ -6,14 +6,10 @@ def acumular():
         soma = soma + a
         a = a + 1
     print('O resultado é', soma)
-    a = int(input('Informe um valor: '))
-    b = int(input('Informe outro valor: '))
     acumuladora = 0
     if (a > 0 and b > 0) and a <= b:
         for A in range(a,b+1):
             acumuladora = acumuladora + A
-    print('O resultado é', acumuladora)
-
 def main():
     acumular()
 main()
