@@ -1,0 +1,13 @@
+def calculoFatorial():
+  n = int(input("Digite um número: "))
+  s = 1
+  for i in range(1,n+1):
+    fatorial = 1
+    while i > 1:
+      fatorial = fatorial * i
+      i = (i - 1)
+    s = s + 1 / fatorial
+  print(s)
+def main():
+  calculoFatorial()
+main()
